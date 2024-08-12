@@ -1,0 +1,12 @@
+{
+  "name": "weber-cooper-maitoza.github.io",
+  "version": "1.0.0",
+  "description": "This is my devloper's portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
