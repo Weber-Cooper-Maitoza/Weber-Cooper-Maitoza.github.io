@@ -1,12 +1,21 @@
 {
+  "homepage": "https://Weber-Cooper-Maitoza.github.io",
   "name": "weber-cooper-maitoza.github.io",
   "version": "1.0.0",
   "description": "This is my devloper's portfolio.",
   "main": "index.js",
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node": "^22.6.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "http-server": "^14.1.1"
+  }
 }
