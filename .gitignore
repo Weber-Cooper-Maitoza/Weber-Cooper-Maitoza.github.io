@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,macos,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,macos,dotenv
 
+### Videos ###
+videos
+*.mov
+
+
 ### dotenv ###
 *.env
 .env
