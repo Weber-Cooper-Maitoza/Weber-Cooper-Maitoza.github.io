@@ -14,13 +14,16 @@
       <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#top">Cooper Maitoza Portfolio</a>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#who-am-i" to="who-am-i" >Who am I?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Projects" to="Projects" >Projects</a>
+                <a class="nav-link" href="#Projects" to="Projects">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Student" to="Student" >Education</a>
@@ -80,260 +83,256 @@
     <h1 class="display-4">Projects</h1>
 
     <!-- CS 3750: Software Engineering 2 -->
-    <div class="text-center py-4">
-      <h1 class="display-7 ">CS 3750 - Software Engineering 2</h1>
-      <a class="btn btn-success" href="projects/cs3750.zip" download>
-        Download All CS 3750 Projects
-      </a>
-    </div>
-    <div class="text-center pb-4">
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cs3570Projects" aria-expanded="false" aria-controls="cs3570Projects">
-        View Projects
-      </button>
-    </div>
-    
-      <!-- At least two screenshots. -->
-      <!-- strongly consider using an animated gif or a video of the project in motion (not required). -->
-      <!-- An explanation of the technologies used, including one or more technical challenges you solved. -->
-      <!-- An explanation of your particular contributions. -->
-      <!-- A link to that code's folder in the repo. -->
-    <div class="collapse" id="cs3570Projects">
-    <!-- Assignment 2: File Storage-->
-      <div class="row py-3" >
-        <div class="card">
-          <div class="row g-0">
-
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/i4KR6JSZERg?playlist=i4KR6JSZERg&si=DKLdbJ-ELgl3igwPy&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Assignment 2: File Storage</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Database Focused</h6>
-                <p class="card-text">
-                  In this assignment, I learned how to save data to a file stored localy. 
-                  Some new technologies that were used were http parameters that are passed to backend
-                  and the utilization of the E in MERN (Express.js). The challenges I faced in this 
-                  assignment were passing parameters to the backend and figuring out how to store local 
-                  data in a file and how to read that data to display. 
-                </p>
-                <a class="btn btn-success" href="projects/Assignment2-fileStorage.zip" download>
-                  Download Project
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div> 
+     <div id="CS3750">
+      <div class="text-center py-4">
+        <h1 class="display-7 ">CS 3750 - Software Engineering 2</h1>
+        <a class="btn btn-success" href="projects/cs3750.zip" download>
+          Download All CS 3750 Projects
+        </a>
       </div>
-
-      <!-- Example: Tic Tac Toe -->
-      <div class="row py-3" >
-        <div class="card">
-          <div class="row g-0">
-
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/aiBpMdRiV0A?playlist=aiBpMdRiV0A&si=OZrOEj3-1HhZNUI4&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Tic Tac Toe React</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Front End Project</h6>
-                <p class="card-text">
-                  In this Tic Tac Toe example project I learned the basics of React.js. This was a great 
-                  tutorial because it helped me with what I needed to complete the next assignment, Connect 
-                  Four. Some challenges I faced in this tutorial was learning a new frontend. New technologies:
-                  React.
-                </p>
-                <a class="btn btn-success" href="projects/React-Example-TicTacToe.zip" download>
-                  Download Project
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div> 
+      <div class="text-center pb-4">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cs3570Projects" aria-expanded="false" aria-controls="cs3570Projects">
+          View Projects
+        </button>
       </div>
+      <div class="collapse" id="cs3570Projects">
+      <!-- Assignment 2: File Storage-->
+        <div class="row py-3" >
+          <div class="card">
+            <div class="row g-0">
 
-      <!-- Assignment 3: Connect 4 -->
-      <div class="row py-3" >
-        <div class="card">
-
-          <div class="row g-0">
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/mzvmO3n5dyg?playlist=mzvmO3n5dyg&si=NH7rh-gvASxCOKGC&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/i4KR6JSZERg?playlist=i4KR6JSZERg&si=DKLdbJ-ELgl3igwPy&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
               </div>
-            </div>
 
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Assignment 3: Connect 4</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Front End Project</h6>
-                <p class="card-text">
-                  This Connect Four project was a challenging one for me because I had to really
-                  connect the aspects of React I learned while making the Tic Tac Toe example.
-                  It was also challenging to figure out the winning logic, which you can take a look
-                  in the project download bellow. Some new key technologies that were used in this 
-                  assignment were React.
-                </p>
-                <a class="btn btn-success" href="projects/Assignment3-connect4-React.zip" download>
-                  Download Project
-                </a>
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Assignment 2: File Storage</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Database Focused</h6>
+                  <p class="card-text">
+                    In this assignment, I learned how to save data to a file stored localy. 
+                    Some new technologies that were used were http parameters that are passed to backend
+                    and the utilization of the E in MERN (Express.js). The challenges I faced in this 
+                    assignment were passing parameters to the backend and figuring out how to store local 
+                    data in a file and how to read that data to display. 
+                  </p>
+                  <a class="btn btn-success" href="projects/Assignment2-fileStorage.zip" download>
+                    Download Project
+                  </a>
+                </div>
               </div>
-            </div>
 
-          </div>
-        </div> 
+            </div>
+          </div> 
+        </div>
+
+        <!-- Example: Tic Tac Toe -->
+        <div class="row py-3" >
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/aiBpMdRiV0A?playlist=aiBpMdRiV0A&si=OZrOEj3-1HhZNUI4&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Tic Tac Toe React</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Front End Project</h6>
+                  <p class="card-text">
+                    In this Tic Tac Toe example project I learned the basics of React.js. This was a great 
+                    tutorial because it helped me with what I needed to complete the next assignment, Connect 
+                    Four. Some challenges I faced in this tutorial was learning a new frontend. New technologies:
+                    React.
+                  </p>
+                  <a class="btn btn-success" href="projects/React-Example-TicTacToe.zip" download>
+                    Download Project
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
+
+        <!-- Assignment 3: Connect 4 -->
+        <div class="row py-3" >
+          <div class="card">
+
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/mzvmO3n5dyg?playlist=mzvmO3n5dyg&si=NH7rh-gvASxCOKGC&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Assignment 3: Connect 4</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Front End Project</h6>
+                  <p class="card-text">
+                    This Connect Four project was a challenging one for me because I had to really
+                    connect the aspects of React I learned while making the Tic Tac Toe example.
+                    It was also challenging to figure out the winning logic, which you can take a look
+                    in the project download bellow. Some new key technologies that were used in this 
+                    assignment were React.
+                  </p>
+                  <a class="btn btn-success" href="projects/Assignment3-connect4-React.zip" download>
+                    Download Project
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
+
+        <!-- Example: Mongo employee app -->
+        <div class="row py-3" >
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/6jrNdLbtjtE?playlist=6jrNdLbtjtE&si=lxWj0zDrV4rLQkNB&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Example: Mongo employee app</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Back End Project</h6>
+                  <p class="card-text">
+                    This assignment lets the user add an "employee" to the database then 
+                    allows the user to edit or delete that "employee". This assignment
+                    was the first time I used MongoDB within the MERN stack. The challenges
+                    I faced in this assignment were using MongoDB in combination with React
+                    Express.js and Node.js. The tricky part was figuring out how the data 
+                    passes between each part of the stack.
+                  </p>
+                  <a class="btn btn-success" href="projects/Mongo-Example-employee-app.zip" download>
+                    Download Project
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
+
+        <!-- Assignment 4/5: Banking Fullstack with sessions -->
+        <div class="row py-3" >
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/3hwNstgH_tE?playlist=3hwNstgH_tE&si=Nb-QYsrNPufe9-9K&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Assignment 4/5: Banking Fullstack with sessions</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Fullstack Project</h6>
+                  <p class="card-text">
+                    This assignment was the first of the big projects durring this course.
+                    In the first part of this project I created a banking app with both a 
+                    frontend that sent data regarding banking info to the server side which 
+                    then stores that data in the Mongo database. The second part was to implement
+                    sessions so that the user can stay logged in if the browser was closed. New 
+                    technologies that were used were CORS and Sessions. Some challenges faced in this 
+                    project were juggling all the different components like the frontend, the server, 
+                    the database, sessions, and getting CORS to work properly.
+                  </p>
+                  <a class="btn btn-success" href="projects/Assignment4-5-banking-Fullstack.zip" download>
+                    Download Project
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
+
+        <!-- Assignment 6: Hangman Group Project -->
+        <div class="row py-3" >
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ctK_645dAcQ?playlist=ctK_645dAcQ&si=vTCzV80gcS99mErT&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Assignment 6: Hangman Group Project</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Fullstack Project</h6>
+                  <p class="card-text">
+                    This project was the first group project I worked on with my classmates; 
+                    brody and coleton. This assignment utilized the whole stack by creating a 
+                    hangman game. The main focuses and challenges were using react a little more
+                    in-depth and storing data in sessions to use in one react page to another.
+                    Because this was a group project, our efforts were divided so I worked on
+                    the username page, loosing page, and helped out on the hangman page and 
+                    highscores page. 
+                  </p>
+                  <a class="btn btn-success" href="projects/Assignment6-Hangman-Group-Fullstack.zip" download>
+                    Download Project
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
+
+        <!-- Assignment 7/8: Banking Fullstack Group Project -->
+        <div class="row py-3" >
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/x3YwiZa1sjU?playlist=x3YwiZa1sjU&si=8pfJ65lPHzTZVumM&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="col-md-4 px-2">
+                <div class="card-body">
+                  <h5 class="card-title">Assignment 7/8: Banking Fullstack Group Project</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Fullstack Project</h6>
+                  <p class="card-text">
+                    This group assignment was the biggest and most robust assignment in this course.
+                    This new banking app utilized the all the aspects of the MERN stack while really
+                    deep diving in the React element and routing of the backend. This was a group 
+                    project with my previous teammates from the last project. This project was broken
+                    up into two parts, 1. building the frontend, 2. building the backend. For the first
+                    part, my contributions were to build the employee's side so the pages where an 
+                    employee can search a customer's id and the page where the searched customer's info
+                    is displayed. I also built the nav bar which displays and hides certin routes 
+                    depending on the role of the user logged in. In the second part of this assignment
+                    I built the routes for depositing, withdrawing and displaying customer's info from 
+                    the employee's side. This project utilized a lot of new techniques and technologies
+                    such as hashing passwords before storing them to a databse and vice versa. 
+                  </p>
+                  <a class="btn btn-success" href="projects/Assignment7-8-Banking-App-Group-Fullstack.zip" download>
+                    Download Project
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
       </div>
-
-      <!-- Example: Mongo employee app -->
-      <div class="row py-3" >
-        <div class="card">
-          <div class="row g-0">
-
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6jrNdLbtjtE?playlist=6jrNdLbtjtE&si=lxWj0zDrV4rLQkNB&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Example: Mongo employee app</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Back End Project</h6>
-                <p class="card-text">
-                  This assignment lets the user add an "employee" to the database then 
-                  allows the user to edit or delete that "employee". This assignment
-                  was the first time I used MongoDB within the MERN stack. The challenges
-                  I faced in this assignment were using MongoDB in combination with React
-                  Express.js and Node.js. The tricky part was figuring out how the data 
-                  passes between each part of the stack.
-                </p>
-                <a class="btn btn-success" href="projects/Mongo-Example-employee-app.zip" download>
-                  Download Project
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div> 
-      </div>
-
-      <!-- Assignment 4/5: Banking Fullstack with sessions -->
-      <div class="row py-3" >
-        <div class="card">
-          <div class="row g-0">
-
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/3hwNstgH_tE?playlist=3hwNstgH_tE&si=Nb-QYsrNPufe9-9K&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Assignment 4/5: Banking Fullstack with sessions</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Fullstack Project</h6>
-                <p class="card-text">
-                  This assignment was the first of the big projects durring this course.
-                  In the first part of this project I created a banking app with both a 
-                  frontend that sent data regarding banking info to the server side which 
-                  then stores that data in the Mongo database. The second part was to implement
-                  sessions so that the user can stay logged in if the browser was closed. New 
-                  technologies that were used were CORS and Sessions. Some challenges faced in this 
-                  project were juggling all the different components like the frontend, the server, 
-                  the database, sessions, and getting CORS to work properly.
-                </p>
-                <a class="btn btn-success" href="projects/Assignment4-5-banking-Fullstack.zip" download>
-                  Download Project
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div> 
-      </div>
-
-      <!-- Assignment 6: Hangman Group Project -->
-      <div class="row py-3" >
-        <div class="card">
-          <div class="row g-0">
-
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ctK_645dAcQ?playlist=ctK_645dAcQ&si=vTCzV80gcS99mErT&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Assignment 6: Hangman Group Project</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Fullstack Project</h6>
-                <p class="card-text">
-                  This project was the first group project I worked on with my classmates; 
-                  brody and coleton. This assignment utilized the whole stack by creating a 
-                  hangman game. The main focuses and challenges were using react a little more
-                  in-depth and storing data in sessions to use in one react page to another.
-                  Because this was a group project, our efforts were divided so I worked on
-                  the username page, loosing page, and helped out on the hangman page and 
-                  highscores page. 
-                </p>
-                <a class="btn btn-success" href="projects/Assignment6-Hangman-Group-Fullstack.zip" download>
-                  Download Project
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div> 
-      </div>
-
-      <!-- Assignment 7/8: Banking Fullstack Group Project -->
-      <div class="row py-3" >
-        <div class="card">
-          <div class="row g-0">
-
-            <div class="col-md-8">
-              <div class="ratio ratio-16x9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/x3YwiZa1sjU?playlist=x3YwiZa1sjU&si=8pfJ65lPHzTZVumM&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-4 px-2">
-              <div class="card-body">
-                <h5 class="card-title">Assignment 7/8: Banking Fullstack Group Project</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Fullstack Project</h6>
-                <p class="card-text">
-                  This group assignment was the biggest and most robust assignment in this course.
-                  This new banking app utilized the all the aspects of the MERN stack while really
-                  deep diving in the React element and routing of the backend. This was a group 
-                  project with my previous teammates from the last project. This project was broken
-                  up into two parts, 1. building the frontend, 2. building the backend. For the first
-                  part, my contributions were to build the employee's side so the pages where an 
-                  employee can search a customer's id and the page where the searched customer's info
-                  is displayed. I also built the nav bar which displays and hides certin routes 
-                  depending on the role of the user logged in. In the second part of this assignment
-                  I built the routes for depositing, withdrawing and displaying customer's info from 
-                  the employee's side. This project utilized a lot of new techniques and technologies
-                  such as hashing passwords before storing them to a databse and vice versa. 
-                </p>
-                <a class="btn btn-success" href="projects/Assignment7-8-Banking-App-Group-Fullstack.zip" download>
-                  Download Project
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div> 
-      </div>
-    </div>
+     </div>
 
     <!-- More Projects to come. -->
     <div class="container text-center py-4">
