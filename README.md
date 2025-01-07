@@ -7,7 +7,7 @@ This is my devloper's portfolio.
 Projects
 ====================
 - Bread board computer (ASM)
-  - `n/a`   
+  - `https://github.com/Weber-Cooper-Maitoza/Toast_Computer.git`   
 - Django food social media app (Python)
   - `https://github.com/Weber-Cooper-Maitoza/social-savoring.git`
 - AlgoGauge (MERN, C++)
